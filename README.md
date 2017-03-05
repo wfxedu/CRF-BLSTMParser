@@ -1,6 +1,6 @@
 # CRF-BLSTMParser
 
-This 'simple parser' is a graph-based parser with first order factorization and built on the [C++ neural network library](https://github.com/clab/lstm-parser) made by Dyer et al[1]. It has following features:
+This `simple parser` is a graph-based parser with first order factorization and built on the [C++ neural network library](https://github.com/clab/lstm-parser) made by Dyer et al[1]. It has following features:
 
 1) We utilize the neural network model proposed by Wang and Chang[2] to score the dependency tree because of bidirectional LSTM (BLSTM) efficiently capturing richer contextual information. 
 
@@ -9,9 +9,9 @@ This 'simple parser' is a graph-based parser with first order factorization and 
 3) We use the conditional random field model to train the parser because it can alleviate the label bias problem [3] and implement it as follow (adding a CRF layer),
 
 	a) Calculating the scores of the possible arcs in a sentence.
-	b) Running the inside-outside algorithm to calculate the marginal probability 'p(w1-->w2)' of each dependency arc.
-	c) summing all 'Iscorrect(w1-->w2) - p(w1-->w2)' * 'Embedding node(w1-->w2)' to get the final neural node 'Nf'.
-	d) Running back propagation from 'Nf' to get the gradients of the parameters.
+	b) Running the inside-outside algorithm to calculate the marginal probability `p(w1-->w2)` of each dependency arc.
+	c) summing all `Iscorrect(w1-->w2) - p(w1-->w2)` * `Embedding node(w1-->w2)` to get the final neural node `Nf`.
+	d) Running back propagation from `Nf` to get the gradients of the parameters.
 	e) Updating the parameters.
 
 ```c
