@@ -46,13 +46,13 @@ This `simple parser` is a graph-based parser with first order factorization and 
 ```
 
 # Result
-Evaluating with English Penn Treebank (PTB) and Chinese Treebank (CTB) version 5 with the standard splits.
-Development Results:
-	CTB5: UAS 88.3%, LAS 86.9%
-	PTB-YM:UAS 93.2%, LAS 92.3%
-Test Results:
-	CTB5: UAS 88.16%, LAS 86.85%
-	PTB-YM: UAS 93.74%, LAS 92.83%
+Evaluating with English Penn Treebank (PTB) and Chinese Treebank (CTB) version 5 with the standard splits.<br>
+Development Results: <br>
+	CTB5: UAS 88.3%, LAS 86.9% <br>
+	PTB-YM:UAS 93.2%, LAS 92.3%<br>
+Test Results:<br>
+	CTB5: UAS 88.16%, LAS 86.85%<br>
+	PTB-YM: UAS 93.74%, LAS 92.83%<br>
 # References
 [1] Dyer C, Ballesteros M, Ling W, et al. Transition-based dependency parsing with stack long short-term memory[C]. 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing of the Asian Federation of Natural Language Processing, ACL-IJCNLP 2015, July 26, 2015 - July 31, 2015, 2015: 334-343.
 
