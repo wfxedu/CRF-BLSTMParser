@@ -4,7 +4,7 @@ This parser is a graph-based parser with first order factorization and built on 
 
 1) We utilize the neural network model proposed by Wang and Chang[2] to score the dependency tree because of bidirectional LSTM (BLSTM) efficiently capturing richer contextual information. 
 
-2) The parser is first order factorization and decodes with the Eisner algorithm so it run fast.
+2) The parser is first order factorization and decodes with the [Eisner algorithm](https://github.com/zzsfornlp/nngdparser/tree/master/src/algorithms "implementation") so it run fast.
 
 3) We use the conditional random field model to train the parser because it can alleviate the label bias problem [3] and implement it as follow (adding a CRF layer),
 
@@ -21,7 +21,6 @@ This parser is a graph-based parser with first order factorization and built on 
 
 	double z = LencodeMarginals(length, scores_label, parser_config::LABEL_SIZE, marginals, marginals_pure);
 	double log_p = -z;
-	//int key_assign = get_index2(length, i, j);
 	vector<Expression> args;
 	for (int h = 0;h < length;h++) {
 		for (int m = 1;m < length;m++) {
