@@ -13,7 +13,7 @@ This `simple parser` is a graph-based parser with first order factorization and 
 	c) summing all `Iscorrect(w1-->w2) - p(w1-->w2)` * `Embedding node(w1-->w2)` to get the final neural node `Nf`.
 	d) Running back propagation from `Nf` to get the gradients of the parameters.
 	e) Updating the parameters.
-
+# The codes for calculating gradients(construct_grad)
 ```c
 	evaluate(hg, sen);
 	double* scores_label = temp_scores;
