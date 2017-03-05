@@ -1,0 +1,125 @@
+﻿  cnn.cc
+  conv.cc
+  deep-lstm.cc
+  dict.cc
+  dim.cc
+  exec.cc
+  expr.cc
+  grad-check.cc
+  graph.cc
+  gru.cc
+  init.cc
+  lstm.cc
+  model.cc
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(64): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+    #if ! DONT_USE_HAS_NEW_OPERATOR
+          ^
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(207): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+        #if DONT_USE_HAS_NEW_OPERATOR
+            ^
+  
+  nodes-common.cc
+  nodes.cc
+  param-nodes.cc
+  rnn-state-machine.cc
+  rnn.cc
+  shadow-params.cc
+  tensor.cc
+  training.cc
+  treelstm.cc
+  common.cpp
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(64): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+    #if ! DONT_USE_HAS_NEW_OPERATOR
+          ^
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(207): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+        #if DONT_USE_HAS_NEW_OPERATOR
+            ^
+  
+  Corpus.cpp
+  KBestRLSTM.cpp
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(64): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+    #if ! DONT_USE_HAS_NEW_OPERATOR
+          ^
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(207): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+        #if DONT_USE_HAS_NEW_OPERATOR
+            ^
+  
+  main.cpp
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(64): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+    #if ! DONT_USE_HAS_NEW_OPERATOR
+          ^
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(207): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+        #if DONT_USE_HAS_NEW_OPERATOR
+            ^
+  
+E:\Desktop\Parsing\work\ShiftReduceParser[Ver1.0.1]\ShiftReduceParserProj\SRParserKBest.h(46): warning #1011: missing return statement at end of non-void function "parser_stateKBest::log_p_total"
+    	Expression log_p_total(int kbi) { kbest_stores[kbi].log_p_total(); }
+    	                                                                   ^
+  
+  ParserTester.cpp
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(64): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+    #if ! DONT_USE_HAS_NEW_OPERATOR
+          ^
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(207): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+        #if DONT_USE_HAS_NEW_OPERATOR
+            ^
+  
+E:\Desktop\Parsing\work\ShiftReduceParser[Ver1.0.1]\ShiftReduceParserProj\SRParserKBest.h(46): warning #1011: missing return statement at end of non-void function "parser_stateKBest::log_p_total"
+    	Expression log_p_total(int kbi) { kbest_stores[kbi].log_p_total(); }
+    	                                                                   ^
+  
+  SRParser.cpp
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(64): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+    #if ! DONT_USE_HAS_NEW_OPERATOR
+          ^
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(207): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+        #if DONT_USE_HAS_NEW_OPERATOR
+            ^
+  
+  ParserTrainer.cpp
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(64): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+    #if ! DONT_USE_HAS_NEW_OPERATOR
+          ^
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(207): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+        #if DONT_USE_HAS_NEW_OPERATOR
+            ^
+  
+E:\Desktop\Parsing\work\ShiftReduceParser[Ver1.0.1]\ShiftReduceParserProj\SRParserKBest.h(46): warning #1011: missing return statement at end of non-void function "parser_stateKBest::log_p_total"
+    	Expression log_p_total(int kbi) { kbest_stores[kbi].log_p_total(); }
+    	                                                                   ^
+  
+  SRParserKBest.cpp
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(64): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+    #if ! DONT_USE_HAS_NEW_OPERATOR
+          ^
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(207): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+        #if DONT_USE_HAS_NEW_OPERATOR
+            ^
+  
+E:\Desktop\Parsing\work\ShiftReduceParser[Ver1.0.1]\ShiftReduceParserProj\SRParserKBest.h(46): warning #1011: missing return statement at end of non-void function "parser_stateKBest::log_p_total"
+    	Expression log_p_total(int kbi) { kbest_stores[kbi].log_p_total(); }
+    	                                                                   ^
+  
+  util.cpp
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(64): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+    #if ! DONT_USE_HAS_NEW_OPERATOR
+          ^
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(207): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+        #if DONT_USE_HAS_NEW_OPERATOR
+            ^
+  
+util.cpp(71): warning #1011: missing return statement at end of non-void function "util::load_EmbedDict"
+    }
+    ^
+  
+     Creating library E:\Desktop\Parsing\work\ShiftReduceParser[Ver1.0.1]\x64\Release\ShiftReduceParser.lib and object E:\Desktop\Parsing\work\ShiftReduceParser[Ver1.0.1]\x64\Release\ShiftReduceParser.exp
+  ShiftReduceParserProj.vcxproj -> E:\Desktop\Parsing\work\ShiftReduceParser[Ver1.0.1]\x64\Release\ShiftReduceParser.exe

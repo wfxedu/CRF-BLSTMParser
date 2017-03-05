@@ -1,0 +1,423 @@
+﻿Build started 12/1/2016 AM 11:47:45.
+     1>Project "D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\ShiftReduceParserProj\ShiftReduceParserProj.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\Desktop\MSTParserEM\boost_1_59_0 /I../ /I../eigen /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D __cplusplus /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ParserTester.cpp ParserTrainer.cpp SRParserKBest.cpp main.cpp
+         SRParserKBest.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/cnn.h(143): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/rnn.h(50): warning C4267: 'argument' : conversion from 'size_t' to 'const int', possible loss of data
+     1>D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/rnn.h(60): warning C4267: 'argument' : conversion from 'size_t' to 'const int', possible loss of data
+     1>d:\desktop\lstm-parser-master\shiftreduceparser[ver1.0.1]\shiftreduceparserproj\common.h(68): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\desktop\lstm-parser-master\shiftreduceparser[ver1.0.1]\shiftreduceparserproj\common.h(92): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\desktop\lstm-parser-master\shiftreduceparser[ver1.0.1]\shiftreduceparserproj\KBestRLSTM.h(46): warning C4099: 'KBestRLSTM' : type name first seen using 'class' now seen using 'struct'
+                 d:\desktop\lstm-parser-master\shiftreduceparser[ver1.0.1]\shiftreduceparserproj\KBestRLSTM.h(4) : see declaration of 'KBestRLSTM'
+     1>SRParserKBest.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+     1>SRParserKBest.cpp(256): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/cnn.h(186): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned int', possible loss of data
+                 D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/expr.h(103) : see reference to function template instantiation 'cnn::VariableIndex cnn::ComputationGraph::add_function<F,std::vector<cnn::VariableIndex,std::allocator<_Ty>>>(const T &)' being compiled
+                 with
+                 [
+                     F=cnn::LogSumExp
+         ,            _Ty=cnn::VariableIndex
+         ,            T=std::vector<cnn::VariableIndex,std::allocator<cnn::VariableIndex>>
+                 ]
+                 D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/expr.h(109) : see reference to function template instantiation 'cnn::expr::Expression cnn::expr::detail::f<cnn::LogSumExp,std::initializer_list<cnn::expr::Expression>>(const T &)' being compiled
+                 with
+                 [
+                     T=std::initializer_list<cnn::expr::Expression>
+                 ]
+         ParserTrainer.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/cnn.h(143): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/rnn.h(50): warning C4267: 'argument' : conversion from 'size_t' to 'const int', possible loss of data
+     1>D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/rnn.h(60): warning C4267: 'argument' : conversion from 'size_t' to 'const int', possible loss of data
+     1>d:\desktop\lstm-parser-master\shiftreduceparser[ver1.0.1]\shiftreduceparserproj\common.h(68): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\desktop\lstm-parser-master\shiftreduceparser[ver1.0.1]\shiftreduceparserproj\common.h(92): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\desktop\lstm-parser-master\shiftreduceparser[ver1.0.1]\shiftreduceparserproj\KBestRLSTM.h(46): warning C4099: 'KBestRLSTM' : type name first seen using 'class' now seen using 'struct'
+                 d:\desktop\lstm-parser-master\shiftreduceparser[ver1.0.1]\shiftreduceparserproj\KBestRLSTM.h(4) : see declaration of 'KBestRLSTM'
+     1>ParserTrainer.cpp(76): warning C4305: '=' : truncation from 'double' to 'cnn::real'
+     1>ParserTrainer.cpp(132): warning C4267: '+=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>ParserTrainer.cpp(137): warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>ParserTrainer.cpp(157): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>ParserTrainer.cpp(162): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>ParserTrainer.cpp(164): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>ParserTrainer.cpp(171): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>ParserTrainer.cpp(172): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>ParserTrainer.cpp(183): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ParserTrainer.cpp(192): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ParserTrainer.cpp(184): warning C4101: 'buff' : unreferenced local variable
+     1>ParserTrainer.cpp(193): warning C4101: 'buff' : unreferenced local variable
+     1>D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/cnn.h(186): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned int', possible loss of data
+                 D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/expr.h(103) : see reference to function template instantiation 'cnn::VariableIndex cnn::ComputationGraph::add_function<F,std::vector<cnn::VariableIndex,std::allocator<_Ty>>>(const T &)' being compiled
+                 with
+                 [
+                     F=cnn::LogSumExp
+         ,            _Ty=cnn::VariableIndex
+         ,            T=std::vector<cnn::VariableIndex,std::allocator<cnn::VariableIndex>>
+                 ]
+                 D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/expr.h(109) : see reference to function template instantiation 'cnn::expr::Expression cnn::expr::detail::f<cnn::LogSumExp,std::initializer_list<cnn::expr::Expression>>(const T &)' being compiled
+                 with
+                 [
+                     T=std::initializer_list<cnn::expr::Expression>
+                 ]
+     1>D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/model.h(123): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/serialization/access.hpp(91) : see reference to function template instantiation 'void cnn::Model::save<Archive>(Archive &,const unsigned int) const' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/serialization/split_member.hpp(43) : see reference to function template instantiation 'void boost::serialization::access::member_save<Archive,const T>(Archive &,T &,const unsigned int)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/serialization/split_member.hpp(42) : while compiling class template member function 'void boost::serialization::detail::member_saver<Archive,T>::invoke(Archive &,const T &,const unsigned int)'
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/serialization/split_member.hpp(69) : see reference to function template instantiation 'void boost::serialization::detail::member_saver<Archive,T>::invoke(Archive &,const T &,const unsigned int)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/serialization/split_member.hpp(69) : see reference to class template instantiation 'boost::serialization::detail::member_saver<Archive,T>' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/model.h(147) : see reference to function template instantiation 'void boost::serialization::split_member<Archive,cnn::Model>(Archive &,T &,const unsigned int)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/serialization/access.hpp(116) : see reference to function template instantiation 'void cnn::Model::serialize<Archive>(Archive &,const unsigned int)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/serialization/serialization.hpp(68) : see reference to function template instantiation 'void boost::serialization::access::serialize<Archive,T>(Archive &,T &,const unsigned int)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/serialization/serialization.hpp(126) : see reference to function template instantiation 'void boost::serialization::serialize<Archive,T>(Archive &,T &,const unsigned int)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/oserializer.hpp(152) : see reference to function template instantiation 'void boost::serialization::serialize_adl<Archive,T>(Archive &,T &,const unsigned int)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/oserializer.hpp(144) : while compiling class template member function 'void boost::archive::detail::oserializer<Archive,T>::save_object_data(boost::archive::detail::basic_oarchive &,const void *) const'
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/oserializer.hpp(258) : see reference to class template instantiation 'boost::archive::detail::oserializer<Archive,T>' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/oserializer.hpp(308) : see reference to function template instantiation 'void boost::archive::detail::save_non_pointer_type<Archive>::save_standard::invoke<T>(Archive &,const T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/oserializer.hpp(308) : see reference to function template instantiation 'void boost::archive::detail::save_non_pointer_type<Archive>::save_standard::invoke<T>(Archive &,const T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/oserializer.hpp(525) : see reference to function template instantiation 'void boost::archive::detail::save_non_pointer_type<Archive>::invoke<const T>(Archive &,const T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/oserializer.hpp(525) : see reference to function template instantiation 'void boost::archive::detail::save_non_pointer_type<Archive>::invoke<const T>(Archive &,const T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/common_oarchive.hpp(69) : see reference to function template instantiation 'void boost::archive::save<Archive,T>(Archive &,T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/basic_text_oarchive.hpp(83) : see reference to function template instantiation 'void boost::archive::detail::common_oarchive<Archive>::save_override<T>(T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/basic_text_oarchive.hpp(83) : see reference to function template instantiation 'void boost::archive::detail::common_oarchive<Archive>::save_override<T>(T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/interface_oarchive.hpp(70) : see reference to function template instantiation 'void boost::archive::basic_text_oarchive<Archive>::save_override<const T>(T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/interface_oarchive.hpp(70) : see reference to function template instantiation 'void boost::archive::basic_text_oarchive<Archive>::save_override<const T>(T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 ParserTrainer.cpp(65) : see reference to function template instantiation 'Archive &boost::archive::detail::interface_oarchive<Archive>::operator <<<cnn::Model>(const T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+                 ParserTrainer.cpp(65) : see reference to function template instantiation 'Archive &boost::archive::detail::interface_oarchive<Archive>::operator <<<cnn::Model>(const T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::Model
+                 ]
+     1>D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/model.h(124): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/model.h(82): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/serialization/access.hpp(91) : see reference to function template instantiation 'void cnn::LookupParameters::save<Archive>(Archive &,const unsigned int) const' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/serialization/split_member.hpp(43) : see reference to function template instantiation 'void boost::serialization::access::member_save<Archive,const T>(Archive &,T &,const unsigned int)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/serialization/split_member.hpp(42) : while compiling class template member function 'void boost::serialization::detail::member_saver<Archive,T>::invoke(Archive &,const T &,const unsigned int)'
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/serialization/split_member.hpp(69) : see reference to function template instantiation 'void boost::serialization::detail::member_saver<Archive,T>::invoke(Archive &,const T &,const unsigned int)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/serialization/split_member.hpp(69) : see reference to class template instantiation 'boost::serialization::detail::member_saver<Archive,T>' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/model.h(96) : see reference to function template instantiation 'void boost::serialization::split_member<Archive,cnn::LookupParameters>(Archive &,T &,const unsigned int)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/serialization/access.hpp(116) : see reference to function template instantiation 'void cnn::LookupParameters::serialize<Archive>(Archive &,const unsigned int)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/serialization/serialization.hpp(68) : see reference to function template instantiation 'void boost::serialization::access::serialize<Archive,T>(Archive &,T &,const unsigned int)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/serialization/serialization.hpp(126) : see reference to function template instantiation 'void boost::serialization::serialize<Archive,T>(Archive &,T &,const unsigned int)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/oserializer.hpp(152) : see reference to function template instantiation 'void boost::serialization::serialize_adl<Archive,T>(Archive &,T &,const unsigned int)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/oserializer.hpp(144) : while compiling class template member function 'void boost::archive::detail::oserializer<Archive,T>::save_object_data(boost::archive::detail::basic_oarchive &,const void *) const'
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/oserializer.hpp(258) : see reference to class template instantiation 'boost::archive::detail::oserializer<Archive,T>' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/oserializer.hpp(308) : see reference to function template instantiation 'void boost::archive::detail::save_non_pointer_type<Archive>::save_standard::invoke<T>(Archive &,const T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/oserializer.hpp(308) : see reference to function template instantiation 'void boost::archive::detail::save_non_pointer_type<Archive>::save_standard::invoke<T>(Archive &,const T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/oserializer.hpp(525) : see reference to function template instantiation 'void boost::archive::detail::save_non_pointer_type<Archive>::invoke<const T>(Archive &,const T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/oserializer.hpp(525) : see reference to function template instantiation 'void boost::archive::detail::save_non_pointer_type<Archive>::invoke<const T>(Archive &,const T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/common_oarchive.hpp(69) : see reference to function template instantiation 'void boost::archive::save<Archive,T>(Archive &,T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/basic_text_oarchive.hpp(83) : see reference to function template instantiation 'void boost::archive::detail::common_oarchive<Archive>::save_override<T>(T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/basic_text_oarchive.hpp(83) : see reference to function template instantiation 'void boost::archive::detail::common_oarchive<Archive>::save_override<T>(T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/interface_oarchive.hpp(70) : see reference to function template instantiation 'void boost::archive::basic_text_oarchive<Archive>::save_override<const T>(T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/interface_oarchive.hpp(70) : see reference to function template instantiation 'void boost::archive::basic_text_oarchive<Archive>::save_override<const T>(T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/interface_oarchive.hpp(77) : see reference to function template instantiation 'Archive &boost::archive::detail::interface_oarchive<Archive>::operator <<<T>(const T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/archive/detail/interface_oarchive.hpp(77) : see reference to function template instantiation 'Archive &boost::archive::detail::interface_oarchive<Archive>::operator <<<T>(const T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/model.h(130) : see reference to function template instantiation 'Archive &boost::archive::detail::interface_oarchive<Archive>::operator &<cnn::LookupParameters>(const T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/model.h(130) : see reference to function template instantiation 'Archive &boost::archive::detail::interface_oarchive<Archive>::operator &<cnn::LookupParameters>(const T &)' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+         ,            T=cnn::LookupParameters
+                 ]
+                 D:\Desktop\MSTParserEM\boost_1_59_0\boost/serialization/access.hpp(91) : see reference to function template instantiation 'void cnn::Model::save<Archive>(Archive &,const unsigned int) const' being compiled
+                 with
+                 [
+                     Archive=boost::archive::text_oarchive
+                 ]
+         Generating Code...
+         Compiling...
+         ParserTester.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/cnn.h(143): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/rnn.h(50): warning C4267: 'argument' : conversion from 'size_t' to 'const int', possible loss of data
+     1>D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/rnn.h(60): warning C4267: 'argument' : conversion from 'size_t' to 'const int', possible loss of data
+     1>d:\desktop\lstm-parser-master\shiftreduceparser[ver1.0.1]\shiftreduceparserproj\common.h(68): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\desktop\lstm-parser-master\shiftreduceparser[ver1.0.1]\shiftreduceparserproj\common.h(92): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\desktop\lstm-parser-master\shiftreduceparser[ver1.0.1]\shiftreduceparserproj\KBestRLSTM.h(46): warning C4099: 'KBestRLSTM' : type name first seen using 'class' now seen using 'struct'
+                 d:\desktop\lstm-parser-master\shiftreduceparser[ver1.0.1]\shiftreduceparserproj\KBestRLSTM.h(4) : see declaration of 'KBestRLSTM'
+     1>ParserTester.cpp(163): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>ParserTester.cpp(164): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>ParserTester.cpp(172): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/cnn.h(186): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned int', possible loss of data
+                 D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/expr.h(103) : see reference to function template instantiation 'cnn::VariableIndex cnn::ComputationGraph::add_function<F,std::vector<cnn::VariableIndex,std::allocator<_Ty>>>(const T &)' being compiled
+                 with
+                 [
+                     F=cnn::LogSumExp
+         ,            _Ty=cnn::VariableIndex
+         ,            T=std::vector<cnn::VariableIndex,std::allocator<cnn::VariableIndex>>
+                 ]
+                 D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\cnn/expr.h(109) : see reference to function template instantiation 'cnn::expr::Expression cnn::expr::detail::f<cnn::LogSumExp,std::initializer_list<cnn::expr::Expression>>(const T &)' being compiled
+                 with
+                 [
+                     T=std::initializer_list<cnn::expr::Expression>
+                 ]
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\x64\Debug\ShiftReduceParser.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\x64\Debug\ /LIBPATH:D:\Desktop\MSTParserEM\boost_1_59_0\bin.v2 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\x64\Debug\ShiftReduceParser.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\x64\Debug\ShiftReduceParser.lib" /MACHINE:X64 x64\Debug\cnn.obj
+         x64\Debug\conv.obj
+         "x64\Debug\deep-lstm.obj"
+         x64\Debug\dict.obj
+         x64\Debug\dim.obj
+         x64\Debug\exec.obj
+         x64\Debug\expr.obj
+         "x64\Debug\grad-check.obj"
+         x64\Debug\graph.obj
+         x64\Debug\gru.obj
+         x64\Debug\init.obj
+         x64\Debug\lstm.obj
+         x64\Debug\model.obj
+         "x64\Debug\nodes-common.obj"
+         x64\Debug\nodes.obj
+         "x64\Debug\param-nodes.obj"
+         "x64\Debug\rnn-state-machine.obj"
+         x64\Debug\rnn.obj
+         "x64\Debug\saxe-init.obj"
+         "x64\Debug\shadow-params.obj"
+         x64\Debug\tensor.obj
+         x64\Debug\training.obj
+         x64\Debug\treelstm.obj
+         x64\Debug\common.obj
+         x64\Debug\Corpus.obj
+         x64\Debug\KBestRLSTM.obj
+         x64\Debug\main.obj
+         x64\Debug\ParserTester.obj
+         x64\Debug\SRParser.obj
+         x64\Debug\ParserTrainer.obj
+         x64\Debug\SRParserKBest.obj
+         x64\Debug\util.obj
+         ShiftReduceParserProj.vcxproj -> D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\x64\Debug\ShiftReduceParser.exe
+     1>Done Building Project "D:\Desktop\lstm-parser-master\ShiftReduceParser[Ver1.0.1]\ShiftReduceParserProj\ShiftReduceParserProj.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.43

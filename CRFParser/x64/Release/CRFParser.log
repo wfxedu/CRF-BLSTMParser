@@ -1,0 +1,16 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (ArcEagerParser[V1.1,1].vcxproj, ArcEagerParser[V1.1.1].vcxproj, ArcEagerParser[V1.1.2].vcxproj, ArcEagerParser[V1.2].vcxproj, ArcEagerParser[V1.3].vcxproj, CRFParser[V0.0.0].vcxproj, CRFParser[V0.0.1].vcxproj, CRFParser[V1.0.5].vcxproj, CRFParser[V1.0.7].vcxproj, CRFParser[V1.0.8].vcxproj, ShiftReduceParser.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+E:\Desktop\Parsing\work\run_path\boost_1_59_0\boost/archive/detail/iserializer.hpp(64): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+    #if ! DONT_USE_HAS_NEW_OPERATOR
+          ^
+  
+E:\Desktop\Parsing\work\run_path\boost_1_59_0\boost/archive/detail/iserializer.hpp(207): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+        #if DONT_USE_HAS_NEW_OPERATOR
+            ^
+  
+main.cpp(552): warning #1011: missing return statement at end of non-void function "main_Train"
+    }
+    ^
+  
+     Creating library E:\Desktop\Parsing\work\run_path[embedding]\CRFParser_GS[Ver1.0.8]\x64\Release\CRFParserGS[V1.0.8].lib and object E:\Desktop\Parsing\work\run_path[embedding]\CRFParser_GS[Ver1.0.8]\x64\Release\CRFParserGS[V1.0.8].exp
+  CRFParser.vcxproj -> E:\Desktop\Parsing\work\run_path[embedding]\CRFParser_GS[Ver1.0.8]\x64\Release\CRFParserGS[V1.0.8].exe

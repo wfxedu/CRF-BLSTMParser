@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-T ./ctb_train.conll -d ./ctb_dev.conll  --layers 1  --hidden_dim 200  --pretrained_dim 200  --pretrained sskip.100.vectors  --rel_dim 50 --pos_dim 50   --input_dim 200 -t  --out_model ./model/en_model_2  --dropout 0.100000</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>E:\Desktop\Parsing\work\run_path\CRFParser[Ver1.0.8]\CTB5.1</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>-T ./train_PTBYM.conll.correct -d ./dev_PTBYM.conll.correct --hidden_dim 100 --pretrained_dim 100 --pretrained sskip.100.vectors --rel_dim 25 --pos_dim 25 --input_dim 100 -t --out_model ./model/en_model_0 --em_org --dropout 0.100000</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>E:\Desktop\Parsing\work\run_path\CRFParser[Ver1.0.5]\PTB_YM</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+</Project>

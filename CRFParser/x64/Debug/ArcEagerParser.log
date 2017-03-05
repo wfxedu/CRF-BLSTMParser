@@ -1,0 +1,171 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (ArcEagerParser[V1.2].vcxproj, ArcEagerParser.vcxproj, ShiftReduceParser.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  cnn.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  conv.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  deep-lstm.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  dict.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  dim.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  exec.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  expr.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  grad-check.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  graph.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  gru.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  init.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  lstm.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  model.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(64): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+    #if ! DONT_USE_HAS_NEW_OPERATOR
+          ^
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(207): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+        #if DONT_USE_HAS_NEW_OPERATOR
+            ^
+  
+  nodes-common.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  nodes.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  param-nodes.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  rnn-state-machine.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  rnn.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  shadow-params.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  tensor.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  training.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  treelstm.cc
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  common.cpp
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(64): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+    #if ! DONT_USE_HAS_NEW_OPERATOR
+          ^
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(207): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+        #if DONT_USE_HAS_NEW_OPERATOR
+            ^
+  
+  main.cpp
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(64): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+    #if ! DONT_USE_HAS_NEW_OPERATOR
+          ^
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(207): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+        #if DONT_USE_HAS_NEW_OPERATOR
+            ^
+  
+  ParserTester.cpp
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(64): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+    #if ! DONT_USE_HAS_NEW_OPERATOR
+          ^
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(207): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+        #if DONT_USE_HAS_NEW_OPERATOR
+            ^
+  
+  PredictTreeEmbedding.cpp
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(64): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+    #if ! DONT_USE_HAS_NEW_OPERATOR
+          ^
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(207): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+        #if DONT_USE_HAS_NEW_OPERATOR
+            ^
+  
+  LocalLSTM2.cpp
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+  SRParser.cpp
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(64): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+    #if ! DONT_USE_HAS_NEW_OPERATOR
+          ^
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(207): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+        #if DONT_USE_HAS_NEW_OPERATOR
+            ^
+  
+  ParserTrainer.cpp
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(64): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+    #if ! DONT_USE_HAS_NEW_OPERATOR
+          ^
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(207): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+        #if DONT_USE_HAS_NEW_OPERATOR
+            ^
+  
+  TreeReader.cpp
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(64): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+    #if ! DONT_USE_HAS_NEW_OPERATOR
+          ^
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(207): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+        #if DONT_USE_HAS_NEW_OPERATOR
+            ^
+  
+  util.cpp
+  Warning #46: "__cplusplus" is predefined; attempted redefinition ignored
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(64): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+    #if ! DONT_USE_HAS_NEW_OPERATOR
+          ^
+  
+E:\Desktop\Parsing\work\CRFParser\boost_1_59_0\boost/archive/detail/iserializer.hpp(207): warning #3199: "defined" is always false in a macro expansion in Microsoft mode
+        #if DONT_USE_HAS_NEW_OPERATOR
+            ^
+  
+util.cpp(71): warning #1011: missing return statement at end of non-void function "util::load_EmbedDict"
+    }
+    ^
+  
+     Creating library E:\Desktop\Parsing\work\ArcEagerParser[Ver1.1.1]\x64\Debug\ArcEagerParser[V1.1.1].lib and object E:\Desktop\Parsing\work\ArcEagerParser[Ver1.1.1]\x64\Debug\ArcEagerParser[V1.1.1].exp
