@@ -1,6 +1,6 @@
 # CRF-BLSTMParser
 
-This parser is a graph-based parser with first order factorization and built on the C++ neural network library made by Dyer et al[1]. It has following features:
+This parser is a graph-based parser with first order factorization and built on the [C++ neural network library](https://github.com/clab/lstm-parser) made by Dyer et al[1]. It has following features:
 
 1) We utilize the neural network model proposed by Wang and Chang[2] to score the dependency tree because of bidirectional LSTM (BLSTM) efficiently capturing richer contextual information. 
 
@@ -9,21 +9,42 @@ This parser is a graph-based parser with first order factorization and built on 
 3) We use the conditional random field model to train the parser because it can alleviate the label bias problem [3] and implement it as follow (adding a CRF layer),
 
 	a) Calculating the scores of the possible arcs in a sentence.
-	b) U_i
+	b) Running the inside-outside algorithm to calculate the marginal probability 'p(w1-->w2)' of each dependency arc.
+	c) summing all 'Iscorrect(w1-->w2) - p(w1-->w2)' * 'Embedding node(w1-->w2)' to get the final neural node 'Nf'.
+	d) Running back propagation from 'Nf' to get the gradients of the parameters.
+	e) Updating the parameters.
 
-%
-\begin{eqnarray}
-\begin{array}{lll}
-\begin{cases}
-i_c = tanh(b_i + M_{xi} \cdot dropout(x) + M_{ci} \cdot c_{t?1} + M_{hi} \cdot h_{t?1} \\
-c_t = i_c \cdot tanh(b_c + M_{xc} \cdot dropout(x) + M_{hi} \cdot h_{t?1}) + (1 ? i_c ) \cdot c_{t?1} \\
-i_o = logistic(b_o + M_{xo} \cdot dropout(x) + M_{co} \cdot c_t + M_{ho} \cdot h_{t?1} ) \\
-h_t = dropout(tanh(c_t) \cdot i_o ) 
-\end{cases}
-\end{array}
-\end{eqnarray}
-%
-%
+'"c
+	evaluate(hg, sen);
+	double* scores_label = temp_scores;
+	decodeProjectiveL(sen.size(), scores_label, parser_config::LABEL_SIZE, outsen);
+
+	double z = LencodeMarginals(length, scores_label, parser_config::LABEL_SIZE, marginals, marginals_pure);
+	double log_p = -z;
+	//int key_assign = get_index2(length, i, j);
+	vector<Expression> args;
+	for (int h = 0;h < length;h++) {
+		for (int m = 1;m < length;m++) {
+			if (m == h)
+				continue;
+			int idx = get_index2(length, h, m);
+			if ( exp_score_labels[idx] == 0) {
+				printf("ERROR!");
+				continue;
+			}
+			for (int l = 0;l < parser_config::LABEL_SIZE;l++) {
+				int idx_lbl = get_index2(length, h, m, l, parser_config::LABEL_SIZE);
+				double gs = 0;
+				if (sen[m].parent == h && sen[m].prel_id == l) {
+					gs = -1;
+					log_p += scores_label[idx_lbl];
+				}
+				args.push_back((gs + marginals[idx_lbl])*pick(*exp_score_labels[idx], l));
+			}
+
+		}
+	}
+'"
 
 # Result
 
