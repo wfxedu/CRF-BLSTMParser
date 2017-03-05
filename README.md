@@ -6,7 +6,7 @@ This `simple parser` is a graph-based parser with first order factorization and 
 
 2) The parser is first order factorization and decodes with the [Eisner algorithm](https://github.com/zzsfornlp/nngdparser/tree/master/src/algorithms "implementation") so it runs fast.
 
-3) We use the conditional random field model to train the parser because it can alleviate the label bias problem [3] and implement it as follow (adding a CRF layer),
+3) We use the conditional random field model to train the parser because it can alleviate the label bias problem [3] and implement it as follow (adding a _CRF layer_),
 
 	a) Calculating the scores of the possible arcs in a sentence.
 	b) Running the inside-outside algorithm to calculate the marginal probability `p(w1-->w2)` of each dependency arc.
