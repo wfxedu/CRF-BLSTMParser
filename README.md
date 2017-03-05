@@ -14,7 +14,7 @@ This parser is a graph-based parser with first order factorization and built on 
 	d) Running back propagation from 'Nf' to get the gradients of the parameters.
 	e) Updating the parameters.
 
-'"c
+```c
 	evaluate(hg, sen);
 	double* scores_label = temp_scores;
 	decodeProjectiveL(sen.size(), scores_label, parser_config::LABEL_SIZE, outsen);
@@ -44,7 +44,7 @@ This parser is a graph-based parser with first order factorization and built on 
 
 		}
 	}
-'"
+```
 
 # Result
 
