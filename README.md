@@ -2,7 +2,7 @@
 
 This `simple parser` is a graph-based parser with first order factorization and built on the [C++ neural network library](https://github.com/clab/lstm-parser) made by Dyer et al. It has following features:
 
-1) We utilize the neural network model proposed by Wang and Chang[1] to score the dependency tree because of bidirectional LSTM (BLSTM) efficiently capturing richer contextual information. Based on their model, we exploit dropout to prevent overfitting and probabilistic model, conditional random field, to alleviate the label bias problem [2].  
+1) We utilize the neural network model proposed by Wang and Chang[1] to score the dependency tree because of bidirectional LSTM (BLSTM) efficiently capturing richer contextual information. Based on their model, we exploit probabilistic model, conditional random field, to alleviate the label bias problem [2].  
 
 2) The parser is first order factorization and decodes with the [Eisner algorithm](https://github.com/zzsfornlp/nngdparser/tree/master/src/algorithms "implementation") so it runs fast. It is similar to the parser built by Zhang et al.[3] except that this parser instead employs BLSTM recurrent neural network and use dropout. Please note that Dropout node is changed to get stable results as follows,
 
