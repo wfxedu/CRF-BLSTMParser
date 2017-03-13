@@ -1,4 +1,4 @@
-# CRF-BLSTMParser
+# CRF-BLSTMParser 
 
 This `simple parser` is a graph-based parser with first order factorization and built on the [C++ neural network library](https://github.com/clab/lstm-parser) made by Dyer et al. It has following features: 
 
